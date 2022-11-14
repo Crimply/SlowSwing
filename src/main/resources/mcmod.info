@@ -1,12 +1,12 @@
 [
   {
-    "modid": "claudius",
-    "name": "Claudius",
+    "modid": "slowswing",
+    "name": "SlowSwing",
     "description": "Best Util Client",
     "version": "1.0",
     "mcversion": "1.12.2",
-    "logoFile": "title.png",
-    "url": "https://discord.gg/F8kkNfx33K",
+    "logoFile": "",
+    "url": "",
     "updateUrl": "",
     "authorList": [
       "Crimply"

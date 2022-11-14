@@ -21,4 +21,4 @@ gradlew build <br>
 <a> https://discord.gg/srVKeqdc4Z</a>
 <br> For Help 
 
-<img src="https://raw.githubusercontent.com/Crimply/Claudius/main/src/main/resources/title.png"/>
+<img src="https://raw.githubusercontent.com/Crimply/SlowSwing/main/src/main/resources/title.png"/>

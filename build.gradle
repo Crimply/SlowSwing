@@ -34,7 +34,7 @@ minecraft {
     version = project.forgeVersion
     runDir = 'run'
     mappings = project.mcpVersion
-    coreMod = 'me.crimp.claudius.mixin.CLoader'
+    coreMod = 'me.crimp.SlowSwing.mixin.CLoader'
     makeObfSourceJar = false
 }
 
@@ -103,7 +103,7 @@ shadowJar {
 
 mixin {
     defaultObfuscationEnv searge
-    add sourceSets.main, 'mixins.claudius.refmap.json'
+    add sourceSets.main, 'mixins.SlowSwing.refmap.json'
 
 }
 
@@ -117,13 +117,13 @@ reobf {
 jar {
     manifest {
         attributes(
-                'MixinConfigs': 'mixins.claudius.json',
+                'MixinConfigs': 'mixins.SlowSwing.json',
                 'tweakClass': 'org.spongepowered.asm.launch.MixinTweaker',
                 'TweakOrder': 0,
                 'FMLCorePluginContainsFMLMod': 'true',
-                'FMLCorePlugin': 'me.crimp.claudius.mixin.CLoader',
+                'FMLCorePlugin': 'me.crimp.SlowSwing.mixin.CLoader',
                 'ForceLoadAsMod': 'true',
-                'FMLAT': 'claudius_at.cfg'
+                'FMLAT': 'SlowSwing_at.cfg'
         )
     }
 }

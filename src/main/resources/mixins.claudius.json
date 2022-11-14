@@ -1,16 +1,13 @@
 {
   "required": true,
   "compatibilityLevel": "JAVA_8",
-  "package": "me.crimp.claudius.mixins.mixins",
-  "refmap": "mixins.claudius.refmap.json",
+  "package": "me.crimp.SlowSwing.mixins.mixins",
+  "refmap": "mixins.SlowSwing.refmap.json",
   "mixins": [
-    "ICPacketAnimation",
-    "ICPacketUseEntityMixin",
-    "MixinEntityPlayerSP",
-    "MixinNetworkManager"
+    "EntityLivingBaseMixin"
   ],
   "client": [
-    "EntityLivingBaseMixin",
-    "MixinAbstractClientPlayer"
+    "MixinAbstractClientPlayer",
+    "MixinModelPlayer"
   ]
 }
