@@ -103,7 +103,7 @@ shadowJar {
 
 mixin {
     defaultObfuscationEnv searge
-    add sourceSets.main, 'mixins.SlowSwing.refmap.json'
+    add sourceSets.main, 'mixins.slowswing.refmap.json'
 
 }
 
@@ -117,13 +117,13 @@ reobf {
 jar {
     manifest {
         attributes(
-                'MixinConfigs': 'mixins.SlowSwing.json',
+                'MixinConfigs': 'mixins.slowswing.json',
                 'tweakClass': 'org.spongepowered.asm.launch.MixinTweaker',
                 'TweakOrder': 0,
                 'FMLCorePluginContainsFMLMod': 'true',
                 'FMLCorePlugin': 'me.crimp.SlowSwing.mixin.CLoader',
                 'ForceLoadAsMod': 'true',
-                'FMLAT': 'SlowSwing_at.cfg'
+                'FMLAT': 'slowswing_at.cfg'
         )
     }
 }
