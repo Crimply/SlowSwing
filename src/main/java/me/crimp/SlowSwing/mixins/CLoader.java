@@ -14,7 +14,7 @@ public class CLoader implements IFMLLoadingPlugin {
     public CLoader() {
         SlowSwingMod.LOGGER.info("\n\nLoading mixins by Crimp");
         MixinBootstrap.init();
-        Mixins.addConfiguration("mixins.SlowSwing.json");
+        Mixins.addConfiguration("mixins.slowswing.json");
         MixinEnvironment.getDefaultEnvironment().setObfuscationContext("searge");
         SlowSwingMod.LOGGER.info(MixinEnvironment.getDefaultEnvironment().getObfuscationContext());
     }

@@ -12,7 +12,6 @@ public class SlowSwingMod {
     public static final String MODNAME = "SlowSwing";
     public static final String MODVER = "1.0";
     public static final Logger LOGGER = LogManager.getLogger("SlowSwing");
-    public static CapeManager capeManager;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
@@ -21,7 +20,6 @@ public class SlowSwingMod {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        capeManager = new CapeManager();
         LOGGER.info("Loading SlowSwing by Crimp");
         }
 }

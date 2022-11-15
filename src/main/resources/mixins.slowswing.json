@@ -5,9 +5,5 @@
   "refmap": "mixins.SlowSwing.refmap.json",
   "mixins": [
     "EntityLivingBaseMixin"
-  ],
-  "client": [
-    "MixinAbstractClientPlayer",
-    "MixinModelPlayer"
-  ]
+    ]
 }
