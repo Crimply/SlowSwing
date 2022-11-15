@@ -1,2 +1,5 @@
 <p align="center">
-Swing Slow bby
+Swing Slow
+<hr>
+<p align="center">
+Controls how fast the swinging animation is.
