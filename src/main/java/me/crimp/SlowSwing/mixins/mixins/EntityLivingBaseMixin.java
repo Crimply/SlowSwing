@@ -29,6 +29,6 @@ public abstract class EntityLivingBaseMixin extends Entity {
     protected void onGetArmSwingAnimationEnd(CallbackInfoReturnable<Integer> callback) {
         EntityPlayer player = Minecraft.getMinecraft().player;
         if (player == null || !this.isPlayer()) return;
-        callback.setReturnValue(5);
+        callback.setReturnValue(20);
     }
 }
